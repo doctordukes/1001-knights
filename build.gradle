@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+apply plugin: 'scala'
+
+dependencies {
+    compile "org.lwjgl.lwjgl:lwjgl:2.9.2"
+    compile "org.lwjgl.lwjgl:lwjgl_util:2.9.2"
+    compile 'org.scala-lang:scala-library:2.11.5'
+}
